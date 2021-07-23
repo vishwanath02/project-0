@@ -1,0 +1,122 @@
+body {
+    font-family: Futura, Trebuchet MS, Arial, san-serif;
+    color: #202124;
+  }
+  
+  h1 {
+    font-size: 42pt;
+    margin: 5px;
+  }
+  
+  h3 {
+    margin: 30px 0px 10px 47px;
+  }
+  
+  .nav {
+    text-align: right;
+  }
+  .nav li {
+    display: inline-block;
+    padding: 10px;
+  }
+  .nav a {
+    color: #202124;
+  }
+  .nav a, .nav a:active, .nav a:hover, .nav a:visited {
+    text-decoration: none;
+  }
+  .nav a:active, .nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .searchbar {
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .searchbar {
+      width: 90%;
+    }
+  }
+  .searchbar-sm {
+    border-radius: 5px;
+    display: block;
+    margin: 7px;
+    padding: 7px;
+    width: 500px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .searchbar-sm {
+      width: 190px;
+    }
+  }
+  .searchbutton {
+    background-color: #F8F9FA;
+    border-style: none;
+    margin: 11px 4px;
+    padding: 8px 16px;
+  }
+  
+  .text-table {
+    margin: 15px 45px;
+  }
+  .text-table tr {
+    font-size: 10pt;
+  }
+  .text-table tr td .searchbutton {
+    float: right;
+    background-color: #4D90FE;
+    color: #FFFFFF;
+  }
+  
+  .vertical {
+    margin-top: 150px;
+  }
+  
+  @media only screen and (max-height: 500px) {
+    .vertical {
+      margin-top: 15px;
+    }
+  }
+  .searchbar:hover, .searchbar:focus, .searchbar-sm:hover, .searchbar-sm:focus, .searchbutton:hover {
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+  }
+  
+
+
+
+
+
+
+  .g_one{
+    color: rgb(0,110, 255);
+}
+.o_one{
+    color: red;
+}
+.o_two{
+    color: rgb(255, 196, 0);
+}
+.g_two{
+    color:rgb(0,110, 255) ;
+}
+.l_one{
+    color: green;
+}
+.e_one{
+    color: red;
+}
+
+
+
+
+
